@@ -1,27 +1,69 @@
+<div id="top"></div>
+
 # GlobalNavSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.8.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a> 
+      <ul>
+<li><a href="#development-server">Development server</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
-## Development server
+### Built With
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Node](https://nodejs.org/)
 
-## Code scaffolding
+- [Angular](https://angular.io/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Build
+<!-- GETTING STARTED -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Getting Started
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- npm
+- Node
+- Angular CLI
 
-## Running end-to-end tests
+### Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Install NPM packages in root dir
+   ```sh
+   npm install
+   ```
+2. Install NPM packages in ./server dir
+   ```sh
+   npm install
+   ```
 
-## Further help
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Usage
+
+### Development server
+
+- Run `node data` in the ./server dir for a node dev server. Navigate to `http://localhost:3000/projects` to get back the list of data. Alternatively send a get request to the same link through an API testing tool and you will receive a JSON response with the data.
+
+- Run `ng serve` in the root dir for the angular front end application dev server. Navigate to `http://localhost:4200/` to start using the app.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
